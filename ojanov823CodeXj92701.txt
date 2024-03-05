@@ -1,0 +1,256 @@
+mixed-port: 7890
+allow-lan: true
+bind-address: '*'
+mode: rule
+log-level: info
+external-controller: '127.0.0.1:9090'
+proxies:
+    - { name: 美國|America|1, type: vless, server: us1.speed-mitce.top, port: 10001, uuid: 170025EA-D357-4BF2-9FE1-004457645A7A, udp: true, tls: true, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: s0.awsstatic.com, reality-opts: { public-key: dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM, short-id: 01fc5e98a68e5e7b } }
+    - { name: 美國|America|2, type: vless, server: us2.speed-mitce.top, port: 10002, uuid: 170025EA-D357-4BF2-9FE1-004457645A7A, udp: true, tls: true, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: s0.awsstatic.com, reality-opts: { public-key: dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM, short-id: 01fc5e98a68e5e7b } }
+    - { name: 美國|America|3, type: vless, server: us3.speed-mitce.top, port: 10003, uuid: 170025EA-D357-4BF2-9FE1-004457645A7A, udp: true, tls: true, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: s0.awsstatic.com, reality-opts: { public-key: dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM, short-id: 01fc5e98a68e5e7b } }
+    - { name: 美國|America|4, type: vless, server: us4.speed-mitce.top, port: 10004, uuid: 170025EA-D357-4BF2-9FE1-004457645A7A, udp: true, tls: true, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: s0.awsstatic.com, reality-opts: { public-key: dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM, short-id: 01fc5e98a68e5e7b } }
+    - { name: 美國|America|5, type: vless, server: us5.speed-mitce.top, port: 10005, uuid: 170025EA-D357-4BF2-9FE1-004457645A7A, udp: true, tls: true, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: s0.awsstatic.com, reality-opts: { public-key: dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM, short-id: 01fc5e98a68e5e7b } }
+    - { name: 日本|Japan|1, type: vless, server: jp1.speed-mitce.top, port: 10006, uuid: 170025EA-D357-4BF2-9FE1-004457645A7A, udp: true, tls: true, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: s0.awsstatic.com, reality-opts: { public-key: dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM, short-id: 01fc5e98a68e5e7b } }
+    - { name: 日本|Japan|2, type: vless, server: jp2.speed-mitce.top, port: 10007, uuid: 170025EA-D357-4BF2-9FE1-004457645A7A, udp: true, tls: true, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: s0.awsstatic.com, reality-opts: { public-key: dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM, short-id: 01fc5e98a68e5e7b } }
+    - { name: 日本|Japan|3, type: vless, server: jp3.speed-mitce.top, port: 10008, uuid: 170025EA-D357-4BF2-9FE1-004457645A7A, udp: true, tls: true, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: s0.awsstatic.com, reality-opts: { public-key: dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM, short-id: 01fc5e98a68e5e7b } }
+    - { name: 日本|Japan|4, type: vless, server: jp4.speed-mitce.top, port: 10009, uuid: 170025EA-D357-4BF2-9FE1-004457645A7A, udp: true, tls: true, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: s0.awsstatic.com, reality-opts: { public-key: dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM, short-id: 01fc5e98a68e5e7b } }
+    - { name: 日本|Japan|5, type: vless, server: jp5.speed-mitce.top, port: 10010, uuid: 170025EA-D357-4BF2-9FE1-004457645A7A, udp: true, tls: true, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: s0.awsstatic.com, reality-opts: { public-key: dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM, short-id: 01fc5e98a68e5e7b } }
+    - { name: 新加坡|Singapore|1, type: vless, server: sg1.speed-mitce.top, port: 10011, uuid: 170025EA-D357-4BF2-9FE1-004457645A7A, udp: true, tls: true, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: s0.awsstatic.com, reality-opts: { public-key: dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM, short-id: 01fc5e98a68e5e7b } }
+    - { name: 新加坡|Singapore|2, type: vless, server: sg2.speed-mitce.top, port: 10012, uuid: 170025EA-D357-4BF2-9FE1-004457645A7A, udp: true, tls: true, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: s0.awsstatic.com, reality-opts: { public-key: dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM, short-id: 01fc5e98a68e5e7b } }
+    - { name: 新加坡|Singapore|3, type: vless, server: sg3.speed-mitce.top, port: 10013, uuid: 170025EA-D357-4BF2-9FE1-004457645A7A, udp: true, tls: true, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: s0.awsstatic.com, reality-opts: { public-key: dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM, short-id: 01fc5e98a68e5e7b } }
+    - { name: 新加坡|Singapore|4, type: vless, server: sg4.speed-mitce.top, port: 10014, uuid: 170025EA-D357-4BF2-9FE1-004457645A7A, udp: true, tls: true, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: s0.awsstatic.com, reality-opts: { public-key: dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM, short-id: 01fc5e98a68e5e7b } }
+    - { name: 新加坡|Singapore|5, type: vless, server: sg5.speed-mitce.top, port: 10015, uuid: 170025EA-D357-4BF2-9FE1-004457645A7A, udp: true, tls: true, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: s0.awsstatic.com, reality-opts: { public-key: dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM, short-id: 01fc5e98a68e5e7b } }
+    - { name: 韓國|Korea|1, type: vless, server: kr1.speed-mitce.top, port: 10016, uuid: 170025EA-D357-4BF2-9FE1-004457645A7A, udp: true, tls: true, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: s0.awsstatic.com, reality-opts: { public-key: dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM, short-id: 01fc5e98a68e5e7b } }
+    - { name: 韓國|Korea|2, type: vless, server: kr2.speed-mitce.top, port: 10017, uuid: 170025EA-D357-4BF2-9FE1-004457645A7A, udp: true, tls: true, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: s0.awsstatic.com, reality-opts: { public-key: dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM, short-id: 01fc5e98a68e5e7b } }
+    - { name: 韓國|Korea|3, type: vless, server: kr3.speed-mitce.top, port: 10018, uuid: 170025EA-D357-4BF2-9FE1-004457645A7A, udp: true, tls: true, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: s0.awsstatic.com, reality-opts: { public-key: dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM, short-id: 01fc5e98a68e5e7b } }
+    - { name: 韓國|Korea|4, type: vless, server: kr4.speed-mitce.top, port: 10019, uuid: 170025EA-D357-4BF2-9FE1-004457645A7A, udp: true, tls: true, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: s0.awsstatic.com, reality-opts: { public-key: dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM, short-id: 01fc5e98a68e5e7b } }
+    - { name: 韓國|Korea|5, type: vless, server: kr5.speed-mitce.top, port: 10020, uuid: 170025EA-D357-4BF2-9FE1-004457645A7A, udp: true, tls: true, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: s0.awsstatic.com, reality-opts: { public-key: dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM, short-id: 01fc5e98a68e5e7b } }
+    - { name: H|香港|Hongkong|1, type: ss, server: hongkong.speed-mitce.top, port: 10021, cipher: aes-128-gcm, password: 170025EA-D357-4BF2-9FE1-004457645A7A, udp: true }
+    - { name: H|香港|Hongkong|2, type: ss, server: hongkong.speed-mitce.top, port: 10022, cipher: aes-128-gcm, password: 170025EA-D357-4BF2-9FE1-004457645A7A, udp: true }
+    - { name: H|香港|Hongkong|3, type: ss, server: hongkong.speed-mitce.top, port: 10023, cipher: aes-128-gcm, password: 170025EA-D357-4BF2-9FE1-004457645A7A, udp: true }
+    - { name: H|香港|Hongkong|4, type: ss, server: hongkong.speed-mitce.top, port: 10024, cipher: aes-128-gcm, password: 170025EA-D357-4BF2-9FE1-004457645A7A, udp: true }
+    - { name: H|香港|Hongkong|5, type: ss, server: hongkong.speed-mitce.top, port: 10025, cipher: aes-128-gcm, password: 170025EA-D357-4BF2-9FE1-004457645A7A, udp: true }
+    - { name: H|台灣|Taiwan|1, type: ss, server: taiwan.speed-mitce.top, port: 10026, cipher: aes-128-gcm, password: 170025EA-D357-4BF2-9FE1-004457645A7A, udp: true }
+    - { name: H|台灣|Taiwan|2, type: ss, server: taiwan.speed-mitce.top, port: 10027, cipher: aes-128-gcm, password: 170025EA-D357-4BF2-9FE1-004457645A7A, udp: true }
+    - { name: H|台灣|Taiwan|3, type: ss, server: taiwan.speed-mitce.top, port: 10028, cipher: aes-128-gcm, password: 170025EA-D357-4BF2-9FE1-004457645A7A, udp: true }
+    - { name: H|台灣|Taiwan|4, type: ss, server: taiwan.speed-mitce.top, port: 10029, cipher: aes-128-gcm, password: 170025EA-D357-4BF2-9FE1-004457645A7A, udp: true }
+    - { name: H|台灣|Taiwan|5, type: ss, server: taiwan.speed-mitce.top, port: 10030, cipher: aes-128-gcm, password: 170025EA-D357-4BF2-9FE1-004457645A7A, udp: true }
+    - { name: 香港|Hongkong|1, type: vless, server: hk1.speed-mitce.top, port: 10031, uuid: 170025EA-D357-4BF2-9FE1-004457645A7A, udp: true, tls: true, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: s0.awsstatic.com, reality-opts: { public-key: dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM, short-id: 01fc5e98a68e5e7b } }
+    - { name: 香港|Hongkong|2, type: vless, server: hk2.speed-mitce.top, port: 10032, uuid: 170025EA-D357-4BF2-9FE1-004457645A7A, udp: true, tls: true, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: s0.awsstatic.com, reality-opts: { public-key: dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM, short-id: 01fc5e98a68e5e7b } }
+    - { name: 香港|Hongkong|3, type: vless, server: hk3.speed-mitce.top, port: 10033, uuid: 170025EA-D357-4BF2-9FE1-004457645A7A, udp: true, tls: true, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: s0.awsstatic.com, reality-opts: { public-key: dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM, short-id: 01fc5e98a68e5e7b } }
+    - { name: 香港|Hongkong|4, type: vless, server: hk4.speed-mitce.top, port: 10034, uuid: 170025EA-D357-4BF2-9FE1-004457645A7A, udp: true, tls: true, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: s0.awsstatic.com, reality-opts: { public-key: dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM, short-id: 01fc5e98a68e5e7b } }
+    - { name: 香港|Hongkong|5, type: vless, server: hk5.speed-mitce.top, port: 10035, uuid: 170025EA-D357-4BF2-9FE1-004457645A7A, udp: true, tls: true, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: s0.awsstatic.com, reality-opts: { public-key: dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM, short-id: 01fc5e98a68e5e7b } }
+    - { type: hysteria2, name: HY2|美國|America|2, server: hy2-us-2.speed-mitce.top, port: 36204, password: 170025EA-D357-4BF2-9FE1-004457645A7A, udp: true, sni: hy2-us-2.speed-mitce.top }
+    - { name: '🇭🇰 香港01-流媒体', type: ss, server: hk01.wbhlink.com, port: 40724, cipher: chacha20-ietf-poly1305, password: 65f2c590-dfa6-44aa-9fc4-6778c2edfb5c, udp: true }
+    - { name: '🇭🇰 香港02-流媒体', type: ss, server: hk02.wbhlink.com, port: 40725, cipher: chacha20-ietf-poly1305, password: 65f2c590-dfa6-44aa-9fc4-6778c2edfb5c, udp: true }
+    - { name: '🇭🇰 香港03-流媒体', type: ss, server: hk03.wbhlink.com, port: 40500, cipher: chacha20-ietf-poly1305, password: 65f2c590-dfa6-44aa-9fc4-6778c2edfb5c, udp: true }
+    - { name: '🇭🇰 香港04-流媒体', type: ss, server: hk04.wbhlink.com, port: 40501, cipher: chacha20-ietf-poly1305, password: 65f2c590-dfa6-44aa-9fc4-6778c2edfb5c, udp: true }
+    - { name: '🇭🇰 香港05-流媒体', type: ss, server: hk05.wbhlink.com, port: 40502, cipher: chacha20-ietf-poly1305, password: 65f2c590-dfa6-44aa-9fc4-6778c2edfb5c, udp: true }
+    - { name: '🇭🇰 香港06-流媒体', type: ss, server: hk06.wbhlink.com, port: 40503, cipher: chacha20-ietf-poly1305, password: 65f2c590-dfa6-44aa-9fc4-6778c2edfb5c, udp: true }
+    - { name: '🇭🇰 香港07-流媒体', type: ss, server: hk07.wbhlink.com, port: 40504, cipher: chacha20-ietf-poly1305, password: 65f2c590-dfa6-44aa-9fc4-6778c2edfb5c, udp: true }
+    - { name: '🇭🇰 香港08-流媒体', type: ss, server: hk08.wbhlink.com, port: 49999, cipher: chacha20-ietf-poly1305, password: 65f2c590-dfa6-44aa-9fc4-6778c2edfb5c, udp: true }
+    - { name: '🇭🇰 香港09-流媒体', type: ss, server: hk09.wbhlink.com, port: 40506, cipher: chacha20-ietf-poly1305, password: 65f2c590-dfa6-44aa-9fc4-6778c2edfb5c, udp: true }
+    - { name: '🇭🇰 香港10-流媒体', type: ss, server: hk10.wbhlink.com, port: 40507, cipher: chacha20-ietf-poly1305, password: 65f2c590-dfa6-44aa-9fc4-6778c2edfb5c, udp: true }
+    - { name: '🇭🇰 香港11', type: ss, server: hk11.wbhlink.com, port: 54006, cipher: chacha20-ietf-poly1305, password: 65f2c590-dfa6-44aa-9fc4-6778c2edfb5c, udp: true }
+    - { name: '🇭🇰 香港12', type: ss, server: hk12.wbhlink.com, port: 54007, cipher: chacha20-ietf-poly1305, password: 65f2c590-dfa6-44aa-9fc4-6778c2edfb5c, udp: true }
+    - { name: '🇭🇰 香港13', type: ss, server: hk13.wbhlink.com, port: 54008, cipher: chacha20-ietf-poly1305, password: 65f2c590-dfa6-44aa-9fc4-6778c2edfb5c, udp: true }
+    - { name: '🇭🇰 香港14', type: ss, server: hk14.wbhlink.com, port: 54009, cipher: chacha20-ietf-poly1305, password: 65f2c590-dfa6-44aa-9fc4-6778c2edfb5c, udp: true }
+    - { name: '🇭🇰 香港15', type: ss, server: hk15.wbhlink.com, port: 54010, cipher: chacha20-ietf-poly1305, password: 65f2c590-dfa6-44aa-9fc4-6778c2edfb5c, udp: true }
+    - { name: '🇯🇵 日本01-流媒体', type: ss, server: jp01.wbhlink.com, port: 30503, cipher: chacha20-ietf-poly1305, password: 65f2c590-dfa6-44aa-9fc4-6778c2edfb5c, udp: true }
+    - { name: '🇯🇵 日本02-流媒体', type: ss, server: jp02.wbhlink.com, port: 30504, cipher: chacha20-ietf-poly1305, password: 65f2c590-dfa6-44aa-9fc4-6778c2edfb5c, udp: true }
+    - { name: '🇯🇵 日本03-流媒体', type: ss, server: jp03.wbhlink.com, port: 30505, cipher: chacha20-ietf-poly1305, password: 65f2c590-dfa6-44aa-9fc4-6778c2edfb5c, udp: true }
+    - { name: '🇯🇵 日本04-流媒体', type: ss, server: jp04.wbhlink.com, port: 30506, cipher: chacha20-ietf-poly1305, password: 65f2c590-dfa6-44aa-9fc4-6778c2edfb5c, udp: true }
+    - { name: '🇯🇵 日本05-流媒体', type: ss, server: jp05.wbhlink.com, port: 30507, cipher: chacha20-ietf-poly1305, password: 65f2c590-dfa6-44aa-9fc4-6778c2edfb5c, udp: true }
+    - { name: '🇯🇵 日本06-流媒体', type: ss, server: jp06.wbhlink.com, port: 30508, cipher: chacha20-ietf-poly1305, password: 65f2c590-dfa6-44aa-9fc4-6778c2edfb5c, udp: true }
+    - { name: '🇯🇵 日本07-流媒体', type: ss, server: jp07.wbhlink.com, port: 30509, cipher: chacha20-ietf-poly1305, password: 65f2c590-dfa6-44aa-9fc4-6778c2edfb5c, udp: true }
+    - { name: '🇯🇵 日本08-流媒体', type: ss, server: jp08.wbhlink.com, port: 30101, cipher: chacha20-ietf-poly1305, password: 65f2c590-dfa6-44aa-9fc4-6778c2edfb5c, udp: true }
+    - { name: '🇯🇵 日本09-流媒体', type: ss, server: jp09.wbhlink.com, port: 30102, cipher: chacha20-ietf-poly1305, password: 65f2c590-dfa6-44aa-9fc4-6778c2edfb5c, udp: true }
+    - { name: '🇯🇵 日本10-流媒体', type: ss, server: jp10.wbhlink.com, port: 30103, cipher: chacha20-ietf-poly1305, password: 65f2c590-dfa6-44aa-9fc4-6778c2edfb5c, udp: true }
+    - { name: '🇯🇵 日本11-流媒体', type: ss, server: jp11.wbhlink.com, port: 30105, cipher: chacha20-ietf-poly1305, password: 65f2c590-dfa6-44aa-9fc4-6778c2edfb5c, udp: true }
+    - { name: '🇯🇵 日本12-流媒体', type: ss, server: jp12.wbhlink.com, port: 30104, cipher: chacha20-ietf-poly1305, password: 65f2c590-dfa6-44aa-9fc4-6778c2edfb5c, udp: true }
+    - { name: '🇸🇬 新加坡1-流媒体', type: ss, server: sg01.wbhlink.com, port: 40512, cipher: chacha20-ietf-poly1305, password: 65f2c590-dfa6-44aa-9fc4-6778c2edfb5c, udp: true }
+    - { name: '🇸🇬 新加坡2-流媒体', type: ss, server: sg02.wbhlink.com, port: 40513, cipher: chacha20-ietf-poly1305, password: 65f2c590-dfa6-44aa-9fc4-6778c2edfb5c, udp: true }
+    - { name: '🇸🇬 新加坡3-流媒体', type: ss, server: sg03.wbhlink.com, port: 40010, cipher: chacha20-ietf-poly1305, password: 65f2c590-dfa6-44aa-9fc4-6778c2edfb5c, udp: true }
+    - { name: '🇸🇬 新加坡4-流媒体', type: ss, server: sg04.wbhlink.com, port: 40012, cipher: chacha20-ietf-poly1305, password: 65f2c590-dfa6-44aa-9fc4-6778c2edfb5c, udp: true }
+    - { name: '🇸🇬 新加坡5-流媒体', type: ss, server: sg05.wbhlink.com, port: 40013, cipher: chacha20-ietf-poly1305, password: 65f2c590-dfa6-44aa-9fc4-6778c2edfb5c, udp: true }
+    - { name: '🇸🇬 新加坡6-流媒体', type: ss, server: sg06.wbhlink.com, port: 40101, cipher: chacha20-ietf-poly1305, password: 65f2c590-dfa6-44aa-9fc4-6778c2edfb5c, udp: true }
+    - { name: '🇸🇬 新加坡7-流媒体', type: ss, server: sg07.wbhlink.com, port: 40521, cipher: chacha20-ietf-poly1305, password: 65f2c590-dfa6-44aa-9fc4-6778c2edfb5c, udp: true }
+    - { name: '🇸🇬 新加坡8-流媒体', type: ss, server: sg08.wbhlink.com, port: 45080, cipher: chacha20-ietf-poly1305, password: 65f2c590-dfa6-44aa-9fc4-6778c2edfb5c, udp: true }
+    - { name: '🇸🇬 新加坡9-流媒体', type: ss, server: sg09.wbhlink.com, port: 45081, cipher: chacha20-ietf-poly1305, password: 65f2c590-dfa6-44aa-9fc4-6778c2edfb5c, udp: true }
+    - { name: '🇸🇬 新加坡10-流媒体', type: ss, server: sg10.wbhlink.com, port: 45082, cipher: chacha20-ietf-poly1305, password: 65f2c590-dfa6-44aa-9fc4-6778c2edfb5c, udp: true }
+    - { name: '🇺🇸 美国01-流媒体', type: ss, server: us01.wbhlink.com, port: 23564, cipher: chacha20-ietf-poly1305, password: 65f2c590-dfa6-44aa-9fc4-6778c2edfb5c, udp: true }
+    - { name: '🇺🇸 美国02-流媒体', type: ss, server: us02.wbhlink.com, port: 20011, cipher: chacha20-ietf-poly1305, password: 65f2c590-dfa6-44aa-9fc4-6778c2edfb5c, udp: true }
+    - { name: '🇺🇸 美国03-流媒体', type: ss, server: us03.wbhlink.com, port: 20112, cipher: chacha20-ietf-poly1305, password: 65f2c590-dfa6-44aa-9fc4-6778c2edfb5c, udp: true }
+    - { name: '🇺🇸 美国04-流媒体', type: ss, server: us04.wbhlink.com, port: 20013, cipher: chacha20-ietf-poly1305, password: 65f2c590-dfa6-44aa-9fc4-6778c2edfb5c, udp: true }
+    - { name: '🇺🇸 美国05-流媒体', type: ss, server: us05.wbhlink.com, port: 20214, cipher: chacha20-ietf-poly1305, password: 65f2c590-dfa6-44aa-9fc4-6778c2edfb5c, udp: true }
+    - { name: '🇰🇷 韩国-1-VIP', type: ss, server: kr01.wbhlink.com, port: 40726, cipher: chacha20-ietf-poly1305, password: 65f2c590-dfa6-44aa-9fc4-6778c2edfb5c, udp: true }
+    - { name: '🇹🇼 台湾01-流媒体', type: ss, server: tw01.wbhlink.com, port: 20703, cipher: chacha20-ietf-poly1305, password: 65f2c590-dfa6-44aa-9fc4-6778c2edfb5c, udp: true }
+    - { name: '🇹🇼 台湾02-流媒体', type: ss, server: tw02.wbhlink.com, port: 19991, cipher: chacha20-ietf-poly1305, password: 65f2c590-dfa6-44aa-9fc4-6778c2edfb5c, udp: true }
+    - { name: '🇻🇳 越南1-原生', type: ss, server: vn01.wbhlink.com, port: 40730, cipher: chacha20-ietf-poly1305, password: 65f2c590-dfa6-44aa-9fc4-6778c2edfb5c, udp: true }
+    - { name: '🇮🇳 印度', type: ss, server: in01.wbhlink.com, port: 40731, cipher: chacha20-ietf-poly1305, password: 65f2c590-dfa6-44aa-9fc4-6778c2edfb5c, udp: true }
+    - { name: '🇹🇷 土耳其', type: ss, server: tr01.wbhlink.com, port: 40732, cipher: chacha20-ietf-poly1305, password: 65f2c590-dfa6-44aa-9fc4-6778c2edfb5c, udp: true }
+proxy-groups:
+    - { name: PROXY, type: select, proxies: [负载均衡-轮询, 美國|America|1, 美國|America|2, 美國|America|3, 美國|America|4, 美國|America|5, 日本|Japan|1, 日本|Japan|2, 日本|Japan|3, 日本|Japan|4, 日本|Japan|5, 新加坡|Singapore|1, 新加坡|Singapore|2, 新加坡|Singapore|3, 新加坡|Singapore|4, 新加坡|Singapore|5, 韓國|Korea|1, 韓國|Korea|2, 韓國|Korea|3, 韓國|Korea|4, 韓國|Korea|5, H|香港|Hongkong|1, H|香港|Hongkong|2, H|香港|Hongkong|3, H|香港|Hongkong|4, H|香港|Hongkong|5, H|台灣|Taiwan|1, H|台灣|Taiwan|2, H|台灣|Taiwan|3, H|台灣|Taiwan|4, H|台灣|Taiwan|5, 香港|Hongkong|1, 香港|Hongkong|2, 香港|Hongkong|3, 香港|Hongkong|4, 香港|Hongkong|5, HY2|美國|America|2]}
+
+    - { name: 负载均衡-轮询, type: load-balance, proxies: [美國|America|1, 美國|America|2, 美國|America|3, 美國|America|4, 美國|America|5, 日本|Japan|1, 日本|Japan|2, 日本|Japan|3, 日本|Japan|4, 日本|Japan|5, 新加坡|Singapore|1, 新加坡|Singapore|2, 新加坡|Singapore|3, 新加坡|Singapore|4, 新加坡|Singapore|5, 韓國|Korea|1, 韓國|Korea|2, 韓國|Korea|3, 韓國|Korea|4, 韓國|Korea|5, H|香港|Hongkong|1, H|香港|Hongkong|2, H|香港|Hongkong|3, H|香港|Hongkong|4, H|香港|Hongkong|5, H|台灣|Taiwan|1, H|台灣|Taiwan|2, H|台灣|Taiwan|3, H|台灣|Taiwan|4, H|台灣|Taiwan|5, 香港|Hongkong|1, 香港|Hongkong|2, 香港|Hongkong|3, 香港|Hongkong|4, 香港|Hongkong|5, HY2|美國|America|2], url: 'http://www.gstatic.com/generate_204', interval: 86400 }
+
+    - { name: BINANCE, type: load-balance, proxies: [日本|Japan|1, 日本|Japan|2, 日本|Japan|3, 日本|Japan|4, 日本|Japan|5, 新加坡|Singapore|1, 新加坡|Singapore|2, 新加坡|Singapore|3, 新加坡|Singapore|4, 新加坡|Singapore|5, 韓國|Korea|1, 韓國|Korea|2, 韓國|Korea|3, 韓國|Korea|4, 韓國|Korea|5, H|香港|Hongkong|1, H|香港|Hongkong|2, H|香港|Hongkong|3, H|香港|Hongkong|4, H|香港|Hongkong|5, H|台灣|Taiwan|1, H|台灣|Taiwan|2, H|台灣|Taiwan|3, H|台灣|Taiwan|4, H|台灣|Taiwan|5, 香港|Hongkong|1, 香港|Hongkong|2, 香港|Hongkong|3, 香港|Hongkong|4, 香港|Hongkong|5], url: 'http://www.gstatic.com/generate_204', interval: 86400 }
+
+    - { name: KLINE, type: select, proxies: ['🇭🇰 香港01-流媒体', '🇭🇰 香港02-流媒体', '🇭🇰 香港03-流媒体', '🇭🇰 香港04-流媒体', '🇭🇰 香港05-流媒体', '🇭🇰 香港06-流媒体', '🇭🇰 香港07-流媒体', '🇭🇰 香港08-流媒体', '🇭🇰 香港09-流媒体', '🇭🇰 香港10-流媒体', '🇭🇰 香港11', '🇭🇰 香港12', '🇭🇰 香港13', '🇭🇰 香港14', '🇭🇰 香港15', '🇯🇵 日本01-流媒体', '🇯🇵 日本02-流媒体', '🇯🇵 日本03-流媒体', '🇯🇵 日本04-流媒体', '🇯🇵 日本05-流媒体', '🇯🇵 日本06-流媒体', '🇯🇵 日本07-流媒体', '🇯🇵 日本08-流媒体', '🇯🇵 日本09-流媒体', '🇯🇵 日本10-流媒体', '🇯🇵 日本11-流媒体', '🇯🇵 日本12-流媒体', '🇸🇬 新加坡1-流媒体', '🇸🇬 新加坡2-流媒体', '🇸🇬 新加坡3-流媒体', '🇸🇬 新加坡4-流媒体', '🇸🇬 新加坡5-流媒体', '🇸🇬 新加坡6-流媒体', '🇸🇬 新加坡7-流媒体', '🇸🇬 新加坡8-流媒体', '🇸🇬 新加坡9-流媒体', '🇸🇬 新加坡10-流媒体', '🇺🇸 美国01-流媒体', '🇺🇸 美国02-流媒体', '🇺🇸 美国03-流媒体', '🇺🇸 美国04-流媒体', '🇺🇸 美国05-流媒体', '🇰🇷 韩国-1-VIP', '🇹🇼 台湾01-流媒体', '🇹🇼 台湾02-流媒体', '🇻🇳 越南1-原生', '🇮🇳 印度', '🇹🇷 土耳其']}
+
+rule-providers:
+  reject:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt"
+    path: ./ruleset/reject.yaml
+    interval: 86400
+
+  icloud:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/icloud.txt"
+    path: ./ruleset/icloud.yaml
+    interval: 86400
+
+  apple:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/apple.txt"
+    path: ./ruleset/apple.yaml
+    interval: 86400
+
+  google:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/google.txt"
+    path: ./ruleset/google.yaml
+    interval: 86400
+
+  proxy:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/proxy.txt"
+    path: ./ruleset/proxy.yaml
+    interval: 86400
+
+  direct:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/direct.txt"
+    path: ./ruleset/direct.yaml
+    interval: 86400
+
+  private:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/private.txt"
+    path: ./ruleset/private.yaml
+    interval: 86400
+
+  gfw:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/gfw.txt"
+    path: ./ruleset/gfw.yaml
+    interval: 86400
+
+  tld-not-cn:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/tld-not-cn.txt"
+    path: ./ruleset/tld-not-cn.yaml
+    interval: 86400
+
+  telegramcidr:
+    type: http
+    behavior: ipcidr
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/telegramcidr.txt"
+    path: ./ruleset/telegramcidr.yaml
+    interval: 86400
+
+  cncidr:
+    type: http
+    behavior: ipcidr
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/cncidr.txt"
+    path: ./ruleset/cncidr.yaml
+    interval: 86400
+
+  lancidr:
+    type: http
+    behavior: ipcidr
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt"
+    path: ./ruleset/lancidr.yaml
+    interval: 86400
+
+  applications:
+    type: http
+    behavior: classical
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/applications.txt"
+    path: ./ruleset/applications.yaml
+    interval: 86400
+
+rules:
+  - PROCESS-NAME,DingTalk.exe,DIRECT
+  - PROCESS-NAME,wegame.exe,DIRECT
+  - PROCESS-NAME,WeChat.exe,DIRECT
+  - PROCESS-NAME,LOSTARK.exe,DIRECT
+  - PROCESS-NAME,Binance.exe,DIRECT
+  - PROCESS-NAME,Listen1.exe,DIRECT
+  
+  - PROCESS-NAME,TradingView.exe,KLINE
+  - DOMAIN-KEYWORD,coinank,KLINE
+  - DOMAIN-KEYWORD,coinglass,KLINE
+  - DOMAIN-KEYWORD,tradinglite,KLINE
+
+  - DOMAIN-KEYWORD,binance,BINANCE
+  - DOMAIN,fapi.binance.com,BINANCE
+  - DOMAIN,api3.binance.com,BINANCE
+  - DOMAIN,dapi.binance.com,BINANCE
+
+  - DOMAIN-KEYWORD,稳连云,PROXY
+  - DOMAIN-KEYWORD,mitce,PROXY
+  - DOMAIN-KEYWORD,coinalyze,PROXY
+  - DOMAIN-KEYWORD,bookmap,PROXY
+  - DOMAIN-KEYWORD,coinsoto,PROXY
+  - DOMAIN-KEYWORD,tensorcharts,PROXY
+  - DOMAIN-KEYWORD,coinigy,PROXY
+  - DOMAIN-KEYWORD,exocharts,PROXY
+  - DOMAIN-KEYWORD,justhost,PROXY
+  - DOMAIN-KEYWORD,namesilo,PROXY
+  - DOMAIN-KEYWORD,sqlunkcloud,PROXY
+  - DOMAIN-KEYWORD,notion,PROXY
+  - DOMAIN-KEYWORD,intercom,PROXY
+  - DOMAIN-KEYWORD,bulianglin,PROXY
+  - DOMAIN-KEYWORD,doprax,PROXY
+  - DOMAIN-KEYWORD,replit,PROXY
+  - DOMAIN-KEYWORD,atlantic,PROXY
+  - DOMAIN-KEYWORD,bing,PROXY
+  - DOMAIN-KEYWORD,discord,PROXY
+  - DOMAIN-KEYWORD,firstbyte,PROXY
+  - DOMAIN-KEYWORD,tradinglite,PROXY
+  - DOMAIN-KEYWORD,canva,PROXY
+  - DOMAIN-KEYWORD,docker,PROXY
+  - DOMAIN-KEYWORD,chatpdf,PROXY
+  - DOMAIN-KEYWORD,xnxx,PROXY
+
+
+  - DOMAIN-KEYWORD,mkxyb,DIRECT
+  - DOMAIN-KEYWORD,xxwy,DIRECT
+  - DOMAIN-KEYWORD,speedtest,DIRECT
+
+  - DOMAIN-KEYWORD,openai,PROXY
+  - DOMAIN-KEYWORD,bard,PROXY
+  - DOMAIN-KEYWORD,ctjsq,PROXY
+
+
+  - DOMAIN,clash.razord.top,DIRECT
+  - DOMAIN,yacd.haishan.me,DIRECT
+  - RULE-SET,applications,DIRECT
+  - RULE-SET,private,DIRECT
+  - RULE-SET,reject,REJECT
+  - RULE-SET,tld-not-cn,PROXY
+  - RULE-SET,gfw,PROXY
+  - RULE-SET,telegramcidr,PROXY
+
+  - MATCH,DIRECT
